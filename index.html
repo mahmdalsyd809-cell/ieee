@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/screens.css" />
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./assets/logo.png" alt="logo" />
+      </div>
+      <i class="fa-solid fa-bars bar" id="bar" onclick="data()"></i>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#Serv">Services</a></li>
+        <li><a href="#Cont">Contact</a></li>
+      </ul>
+    </header>
+    <ul class="list" id="list">
+    <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#Serv">Services</a></li>
+        <li><a href="#Cont">Contact</a></li>
+    </ul>
+    <section class="hero" id="Home">
+      <h1>Wolcome to our coffe shop</h1>
+      <p class="animtion-hero">Enjoy your coffe</p>
+    </section>
+    <section class="about-section easy" id="About">
+      <h2>About Us</h2>
+      <div class="group-about">
+        <div class="img-about"><img src="./assets/about.jpg" alt="img" /></div>
+        <div class="title-about">
+          <p class="quez">Who are we ?</p>
+          <p class="des-about">
+            We are a cozy coffee shop dedicated to creating a warm and welcoming
+            space for coffee lovers. Our passion is serving high-quality coffee
+            made from carefully selected beans, brewed with care and attention
+            to detail. Whether you’re here to relax, work, or meet friends, we
+            aim to make every visit comfortable, memorable, and full of great
+            taste.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="menu" id="Menu">
+      <h3 class="menu-header">Our Menu</h3>
+      <div class="items">
+        <div class="item">
+          <p class="header">Hot drinks</p>
+          <div class="img-menu"><img src="./assets/tea.jpg" alt="" /></div>
+        </div>
+        <div class="item">
+          <p class="header">Cold drinks</p>
+          <div class="img-menu">
+            <img src="./assets/coldDrink.jpg" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <p class="header">Desserts</p>
+          <div class="img-menu"><img src="./assets/dount.jpg" alt="" /></div>
+        </div>
+        <div class="item">
+          <p class="header">Bakery</p>
+          <div class="img-menu"><img src="./assets/food.jpg" alt="" /></div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="Serv">
+      <h4>Our Services</h4>
+      <div class="group-service">
+        <div class="cards boreder-one">
+          <i class="fas fa-coffee fa-3x icons-service"></i>
+          <div class="head-card">Premium Coffee</div>
+          <div class="des-card">
+            High-quality coffee brewed fresh every day for our customers.
+          </div>
+        </div>
+        <div class="cards boreder-two">
+          <i class="fas fa-bread-slice fa-3x icons-service"></i>
+          <div class="head-card">Fresh Snacks</div>
+          <div class="des-card">
+            Delicious bakery items and snacks to pair perfectly with your
+            coffee.
+          </div>
+        </div>
+        <div class="cards boreder-three">
+          <i class="fas fa-truck fa-3x icons-service"></i>
+          <div class="head-card">Fast Delivery</div>
+          <div class="des-card">
+            Order online and get your coffee and snacks delivered to your door.
+          </div>
+        </div>
+        <div class="cards boreder-four">
+          <i class="fas fa-wifi fa-3x icons-service"></i>
+          <div class="head-card">Free Wifi</div>
+          <div class="des-card">
+            Stay connected with our high-speed Wi-Fi while you enjoy your
+            coffee.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="Cont">
+      <h5>Contact us</h5>
+      <div class="group-contact">
+        <form>
+          <label for="user">user name :</label>
+          <input type="text" id="user" placeholder="ex: eman Ayman" />
+          <label for="email">user mail :</label>
+          <input type="email" id="email" placeholder="ex: eman Ayman" />
+          <label for="adders"> user address : </label>
+          <input type="text" id="adders" placeholder="ex: cairo" />
+            <div class="btn">
+              <button type="submit" class="submit-btn">Submit</button>
+            </div>
+        </form>
+        <div class="maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.4032769083665!2d31.4274253!3d29.996574699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583cbc68d4d2c5%3A0x383b90a6abbd8e85!2s429%20Street%209%2C%20New%20Cairo%201%2C%20Cairo%20Governorate%204722266!5e0!3m2!1sen!2seg!4v1772947284786!5m2!1sen!2seg"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen="true"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>© 2025 IEEE Front-End Track. by Eman Ayman.</p>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+@media (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  header {
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    ul {
+      display: none;
+    }
+  }
+  .bar {
+    display: block;
+  }
+  .list {
+    display: block;
+  }
+  .hero {
+    h1 {
+      font-size: 28px;
+    }
+  }
+  .animtion-hero {
+    font-size: 16px;
+  }
+  .about-section {
+    padding: 30px;
+  }
+  .img-about {
+    width: 300px;
+    height: 300px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+
+  .group-about {
+    flex-direction: column;
+  }
+  .title-about {
+    font-size: 16px;
+    width: 100%;
+  }
+  .des-about {
+    font-size: 12px;
+  }
+  .quez {
+    font-size: 16px;
+  }
+  .items {
+    flex-direction: column;
+  }
+  .menu {
+    padding: 10px;
+  }
+  .img-menu {
+    width: 250px;
+    height: 250px;
+  }
+  h3 {
+    font-size: 28px;
+    margin-top: 100px;
+  }
+  h4{
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+
+  .des-card {
+    font-size: 16px;
+  }
+  .cards {
+    font-size: 16px;
+  width: 45%;
+  padding: 20px;
+  }
+  .icons-service {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+.boreder-one {
+  border-top-left-radius: 50px;
+}
+.boreder-two {
+  border-top-right-radius: 50px;
+
+}
+.boreder-three {
+  border-bottom-left-radius: 50px;
+
+}
+.boreder-four {
+  border-bottom-right-radius: 50px;
+
+}
+.icons-service {
+  font-size: 40px;
+}
+.head-card {
+  font-weight: bold;
+}
+.group-contact  {
+  flex-direction: column;
+}
+form {
+  width: 100%;
+}
+.maps{
+  width: 80%;
+}
+h5 {
+  font-size: 28px;
+}
+footer{
+  padding: 48px;
+  p{
+    font-size: 10px;
+  }
+}
+}
